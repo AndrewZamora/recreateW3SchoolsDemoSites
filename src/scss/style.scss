@@ -53,3 +53,11 @@ header {
     }
   }
 }
+
+@media (max-width:550px) {
+  header nav{
+    ul{
+      display:none;
+    }
+  }
+}
