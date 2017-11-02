@@ -6,7 +6,6 @@ body,
 html {
   font-family: Verdana,sans-serif;
   font-size: 15px;
-  line-height: 1.5;
   height: 100%; }
 
 header nav {
@@ -33,7 +32,7 @@ header nav {
       margin-right: 5px; }
       header nav ul li a {
         text-decoration: none;
-        padding: 8px;
+        padding: 8px 16px;
         color: #000;
         letter-spacing: 4px;
         font-size: 15px; }
@@ -41,15 +40,28 @@ header nav {
           color: #000;
           background: #ccc; }
 
-header h2 a {
-  text-decoration: none;
-  letter-spacing: 4px;
-  margin-left: 16px;
-  padding: 8px;
-  color: #000; }
-  header h2 a:hover {
+header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  header h1 a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    margin-left: 16px;
+    padding: 8px 16px;
     color: #000;
-    background: #ccc; }
+    font-weight: normal;
+    font-size: 15px; }
+    header h1 a:hover {
+      color: #000;
+      background: #ccc; }
 
 header div {
   background-image: url("/img/heroImage.jpeg");
@@ -74,7 +86,7 @@ header div {
     padding: 8px;
     font-weight: bold; }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   header nav ul {
     display: none; }
   span:nth-of-type(2) {
