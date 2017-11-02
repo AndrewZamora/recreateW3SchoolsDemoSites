@@ -73,7 +73,7 @@ header {
     align-items: center;
     color: #fff;
     font-size: 36px;
-    span{
+    span:nth-of-type(1){
       background-color:rgba(0, 0, 0, 0.7);
       padding: 8px;
       font-weight: bold;
@@ -86,9 +86,16 @@ header {
       display: none;
     }
   }
+  span:nth-of-type(2){
+    display:none;
+  }
 }
 .projects {
   h3{
     font-weight: normal;
+    padding: 16px;
+    margin:10px;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
   }
 }
