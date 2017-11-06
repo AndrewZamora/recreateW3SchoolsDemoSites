@@ -104,19 +104,17 @@ header div {
     display: -ms-flexbox;
     display: flex;
     list-style: none;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
     .projects ul li {
       height: 191px;
-      padding: 10px;
       background-clip: content-box;
       background-size: cover;
       background-position: center;
-      -ms-flex-preferred-size: 25%;
-          flex-basis: 25%; }
+      -ms-flex-preferred-size: 23%;
+          flex-basis: 23%; }
     .projects ul li:nth-child(1) {
       background-image: url("/img/project1.jpeg"); }
     .projects ul li:nth-child(2) {
@@ -133,3 +131,9 @@ header div {
       background-image: url("/img/project7.jpeg"); }
     .projects ul li:nth-child(8) {
       background-image: url("/img/project8.jpeg"); }
+
+footer {
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0; }
