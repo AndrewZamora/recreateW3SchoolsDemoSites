@@ -93,28 +93,37 @@ header div {
     display: none; } }
 
 .projects {
-  padding: 8px 16px; }
+  padding: 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .projects h3 {
     padding: 16px 0;
     font-weight: normal;
     font-size: 20px;
     border-bottom: 1px solid #ccc; }
   .projects ul {
+    list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    list-style: none;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .projects ul li {
       height: 191px;
       background-clip: content-box;
       background-size: cover;
       background-position: center;
-      -ms-flex-preferred-size: 23%;
-          flex-basis: 23%; }
+      -ms-flex-preferred-size: 24.5%;
+          flex-basis: 24.5%;
+      padding-top: 10px; }
     .projects ul li:nth-child(1) {
       background-image: url("/img/project1.jpeg"); }
     .projects ul li:nth-child(2) {
@@ -131,6 +140,16 @@ header div {
       background-image: url("/img/project7.jpeg"); }
     .projects ul li:nth-child(8) {
       background-image: url("/img/project8.jpeg"); }
+
+@media (max-width: 600px) {
+  .projects ul li {
+    -ms-flex-preferred-size: 48.5%;
+        flex-basis: 48.5%; } }
+
+@media (max-width: 400px) {
+  .projects ul li {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; } }
 
 footer {
   background: #000000;
