@@ -147,12 +147,13 @@ header div {
     .projects ul li:nth-child(8) {
       background-image: url("/img/project8.jpeg"); }
 
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .projects ul li {
     -ms-flex-preferred-size: 48.5%;
-        flex-basis: 48.5%; } }
+        flex-basis: 48.5%;
+    height: 260px; } }
 
-@media (max-width: 400px) {
+@media (max-width: 592px) {
   .projects ul li {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; } }
