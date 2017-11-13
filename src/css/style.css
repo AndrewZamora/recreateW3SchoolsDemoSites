@@ -125,6 +125,11 @@ header div {
       -ms-flex-preferred-size: 24.5%;
           flex-basis: 24.5%;
       padding-top: 10px; }
+      .projects ul li p {
+        color: #fff;
+        background: #000;
+        display: inline-block;
+        padding: 8px 16px; }
     .projects ul li:nth-child(1) {
       background-image: url("/img/project1.jpeg"); }
     .projects ul li:nth-child(2) {
