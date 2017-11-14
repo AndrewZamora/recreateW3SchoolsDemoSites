@@ -158,6 +158,17 @@ header {
     flex-basis: 100%;
   }
  }
+ //About Section
+ .about{
+  padding: 8px 16px;
+  h3 {
+    padding: 16px 0;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin: 32px 0;
+  }
+ }
 // Footer Section
 footer {
   background: #000000;
