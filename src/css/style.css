@@ -152,10 +152,18 @@ header div {
   .projects ul li {
     -ms-flex-preferred-size: 48.5%;
         flex-basis: 48.5%;
-    height: 260px; } }
+    height: 260px; }
+  .about .cards {
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%; } }
 
 @media (max-width: 592px) {
   .projects ul li {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; } }
+
+@media (max-width: 450px) {
+  .about .cards {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; } }
 
@@ -168,7 +176,8 @@ header div {
     border-bottom: 1px solid #ccc;
     margin: 32px 0; }
   .about p {
-    margin: 15px 0; }
+    margin: 15px 0;
+    padding-bottom: 32px; }
 
 .contacts {
   display: -webkit-box;
@@ -176,7 +185,9 @@ header div {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
   .contacts h4 {
     font-size: 24px;
     font-weight: normal; }
@@ -190,7 +201,8 @@ header div {
       -ms-flex-direction: column;
           flex-direction: column;
   -ms-flex-preferred-size: 24%;
-      flex-basis: 24%; }
+      flex-basis: 24%;
+  padding: 20px 0; }
   .cards p:nth-of-type(1) {
     color: #828282; }
   .cards button {
@@ -202,8 +214,13 @@ header div {
   .cards button:hover {
     background: rgba(0, 0, 0, 0.4); }
 
+div.img-wrapper {
+  height: 250px;
+  width: auto;
+  overflow: hidden; }
+
 img {
-  height: 287px;
+  height: 100%;
   width: 100%; }
 
 .contact {

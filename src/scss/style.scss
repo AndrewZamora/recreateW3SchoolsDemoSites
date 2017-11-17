@@ -152,11 +152,19 @@ header {
    flex-basis: 48.5%;
    height: 260px;
  }
+ .about .cards{
+  flex-basis: 49%;
+}
 }
 @media (max-width:592px) {
   .projects ul li{
     flex-basis: 100%;
   }
+ }
+ @media (max-width:450px){
+  .about .cards{
+    flex-basis: 100%;
+  } 
  }
  //About Section
  .about{
@@ -170,11 +178,13 @@ header {
   }
   p {
     margin:15px 0;
+    padding-bottom:32px;
   }
  }
  .contacts{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    h4{
      font-size:24px;
      font-weight: normal;
@@ -184,6 +194,7 @@ header {
    display: flex;
    flex-direction: column;
    flex-basis: 24%;
+   padding: 20px 0;
    p:nth-of-type(1){
      color:#828282;
    }
@@ -198,9 +209,14 @@ header {
     background:rgba(0, 0, 0, 0.4);
   }
  }
+ div.img-wrapper{
+  height: 250px;
+  width:auto;
+  overflow: hidden;
+ }
  img{
-   height: 287px;
-   width: 100%;
+  height:100%;
+  width:100%;
  }
  //Contact Section
  .contact {
