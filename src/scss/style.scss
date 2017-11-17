@@ -229,6 +229,17 @@ header {
     margin: 32px 0;
   }
  }
+ form {
+   width: 100%;
+   box-sizing: border-box;
+   input{
+     width: 100%;
+     border: none;
+     border-bottom: 2px solid #ccc;
+     padding: 8px;
+     margin: 16px 0;
+   }
+ }
 // Footer Section
 footer {
   background: #000000;
