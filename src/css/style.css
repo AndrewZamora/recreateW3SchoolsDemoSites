@@ -232,16 +232,28 @@ img {
     border-bottom: 1px solid #ccc;
     margin: 32px 0; }
 
-form {
+form input {
+  font-size: 15px;
   width: 100%;
+  border: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-  form input {
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid #ccc;
-    padding: 8px;
-    margin: 16px 0; }
+          box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  margin: 16px 0; }
+
+.contact button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 16px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px; }
+  .contact button:hover {
+    color: #000;
+    background-color: #ccc; }
 
 footer {
   background: #000000;

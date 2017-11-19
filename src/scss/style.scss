@@ -89,6 +89,7 @@ header {
     display: none;
   }
 }
+
 // Projects Section
 .projects {
   padding: 8px 16px;
@@ -113,9 +114,9 @@ header {
       background-position: center;
       flex-basis: 24.5%;
       padding-top: 10px;
-      p{
-        color:#fff;
-        background:#000;
+      p {
+        color: #fff;
+        background: #000;
         display: inline-block;
         padding: 8px 16px;
       }
@@ -148,26 +149,27 @@ header {
 }
 
 @media (max-width:960px) {
- .projects ul li{
-   flex-basis: 48.5%;
-   height: 260px;
- }
- .about .cards{
-  flex-basis: 49%;
+  .projects ul li {
+    flex-basis: 48.5%;
+    height: 260px;
+  }
+  .about .cards {
+    flex-basis: 49%;
+  }
 }
-}
+
 @media (max-width:592px) {
-  .projects ul li{
+  .projects ul li {
     flex-basis: 100%;
   }
- }
- @media (max-width:450px){
-  .about .cards{
+}
+
+@media (max-width:450px) {
+  .about .cards {
     flex-basis: 100%;
-  } 
- }
- //About Section
- .about{
+  }
+} //About Section
+.about {
   padding: 8px 16px;
   h3 {
     padding: 16px 0;
@@ -177,49 +179,52 @@ header {
     margin: 32px 0;
   }
   p {
-    margin:15px 0;
-    padding-bottom:32px;
+    margin: 15px 0;
+    padding-bottom: 32px;
   }
- }
- .contacts{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   h4{
-     font-size:24px;
-     font-weight: normal;
-   }
- }
- .cards{
-   display: flex;
-   flex-direction: column;
-   flex-basis: 24%;
-   padding: 20px 0;
-   p:nth-of-type(1){
-     color:#828282;
-   }
-   button{
-     background:#f1f1f1;
-     border:none;
-     cursor: pointer;
-     font-size:20px;
-     padding: 8px 16px;
-   }
-   button:hover {
-    background:rgba(0, 0, 0, 0.4);
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h4 {
+    font-size: 24px;
+    font-weight: normal;
   }
- }
- div.img-wrapper{
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 24%;
+  padding: 20px 0;
+  p:nth-of-type(1) {
+    color: #828282;
+  }
+  button {
+    background: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+  button:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+
+div.img-wrapper {
   height: 250px;
-  width:auto;
+  width: auto;
   overflow: hidden;
- }
- img{
-  height:100%;
-  width:100%;
- }
- //Contact Section
- .contact {
+}
+
+img {
+  height: 100%;
+  width: 100%;
+} //Contact Section
+.contact {
   padding: 8px 16px;
   h3 {
     padding: 16px 0;
@@ -228,18 +233,35 @@ header {
     border-bottom: 1px solid #ccc;
     margin: 32px 0;
   }
- }
- form {
-   width: 100%;
-   box-sizing: border-box;
-   input{
-     width: 100%;
-     border: none;
-     border-bottom: 2px solid #ccc;
-     padding: 8px;
-     margin: 16px 0;
-   }
- }
+}
+
+form {
+  input {
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    margin: 16px 0;
+  }
+}
+
+.contact button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 16px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+  &:hover {
+    color: #000;
+    background-color: #ccc;
+  }
+}
+
 // Footer Section
 footer {
   background: #000000;
