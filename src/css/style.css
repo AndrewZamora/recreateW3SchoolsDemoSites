@@ -255,6 +255,9 @@ form input {
     color: #000;
     background-color: #ccc; }
 
+#map {
+  height: 80vh; }
+
 footer {
   background: #000000;
   color: #fff;
