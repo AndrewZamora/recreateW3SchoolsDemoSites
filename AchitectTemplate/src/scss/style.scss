@@ -60,7 +60,7 @@ header {
     }
   }
   div {
-    background-image: url('/img/heroImage.jpeg');
+    background-image: url(../img/heroImage.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,28 +122,28 @@ header {
       }
     }
     li:nth-child(1) {
-      background-image: url('/img/project1.jpeg');
+      background-image: url(../img/project1.jpeg);
     }
     li:nth-child(2) {
-      background-image: url('/img/project2.jpeg');
+      background-image: url(../img/project2.jpeg);
     }
     li:nth-child(3) {
-      background-image: url('/img/project3.jpeg');
+      background-image: url(../img/project3.jpeg);
     }
     li:nth-child(4) {
-      background-image: url('/img/project4.jpeg');
+      background-image: url(../img/project4.jpeg);
     }
     li:nth-child(5) {
-      background-image: url('/img/project5.jpeg');
+      background-image: url(../img/project5.jpeg);
     }
     li:nth-child(6) {
-      background-image: url('/img/project6.jpeg');
+      background-image: url(../img/project6.jpeg);
     }
     li:nth-child(7) {
-      background-image: url('/img/project7.jpeg');
+      background-image: url(../img/project7.jpeg);
     }
     li:nth-child(8) {
-      background-image: url('/img/project8.jpeg');
+      background-image: url(../img/project8.jpeg);
     }
   }
 }
