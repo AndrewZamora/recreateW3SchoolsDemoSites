@@ -1,42 +1,44 @@
 // Reset for some default styles
-body,html{
+body,
+html {
     padding: 0;
     margin: 0;
-    font-family: Verdana,sans-serif;
+    font-family: Verdana, sans-serif;
 }
+
 //Default Styles Varables
 $navTextColor:#333;
 $navTextSize: 15px;
 // Navigation Bar Styles
-nav{
+nav {
     display: flex;
     height: 50px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    h3{
+    h3 {
         font-weight: normal;
         margin: 0;
         font-size: $navTextSize;
         padding: 8px 16px;
-        a{
+        a {
             color: $navTextColor;
             text-decoration: none;
         }
     }
-    ul{
+    ul {
         padding: 0;
         display: flex;
         list-style: none;
     }
-    li{
-        a{
+    li {
+        a {
             text-decoration: none;
             color: $navTextColor;
             margin: 0;
             font-size: $navTextSize;
             padding: 8px 16px;
-            i{
+            i {
                 padding-right: 3px;
             }
         }
@@ -45,7 +47,7 @@ nav{
         display: flex;
         align-items: center;
     }
-    a{
+    a {
         color: $navTextColor;
         padding: 8px 16px;
     }
