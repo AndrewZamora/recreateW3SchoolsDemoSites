@@ -1,4 +1,52 @@
-body {
-    background: #333;
-    color: #ccc;
+// Reset for some default styles
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana,sans-serif;
+}
+//Default Styles Varables
+$navTextColor:#333;
+$navTextSize: 15px;
+// Navigation Bar Styles
+nav{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+        font-weight: normal;
+        margin: 0;
+        font-size: $navTextSize;
+        padding: 8px 16px;
+        a{
+            color: $navTextColor;
+            text-decoration: none;
+        }
+    }
+    ul{
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+    li{
+        a{
+            text-decoration: none;
+            color: $navTextColor;
+            margin: 0;
+            font-size: $navTextSize;
+            padding: 8px 16px;
+            i{
+                padding-right: 3px;
+            }
+        }
+    }
+    div {
+        display: flex;
+        align-items: center;
+    }
+    a{
+        color: $navTextColor;
+        padding: 8px 16px;
+    }
 }
