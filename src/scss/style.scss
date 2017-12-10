@@ -6,14 +6,14 @@ html {
     font-family: Verdana, sans-serif;
 }
 
-//Default Styles Varables
-$navTextColor:#333;
+//Default Style Varables
+$navTextColor:#777;
 $navTextSize: 15px;
+$navTextHover: #000;
 // Navigation Bar Styles
 nav {
     display: flex;
     height: 50px;
-    width: 100%;
     align-items: center;
     h3 {
         font-weight: normal;
@@ -31,6 +31,7 @@ nav {
         list-style: none;
         margin-right: auto;
     }
+    h3,
     li {
         a {
             text-decoration: none;
@@ -38,13 +39,35 @@ nav {
             margin: 0;
             font-size: $navTextSize;
             padding: 8px 16px;
+            &:hover {
+                color: $navTextHover;
+                background: #ccc;
+            }
             i {
                 padding-right: 3px;
             }
         }
     }
     a {
+        padding: 16px;
         color: $navTextColor;
-        padding: 8px 16px;
+        &:hover {
+            color: #fff;
+            background: #F44336;
+        }
+    }
+}
+
+// Mobile Styles
+@media only screen and (max-width: 600px) {
+    nav {
+        display: block;
+        text-align: center;
+        ul {
+            display: block;
+        }
+        i {
+            display: none !important;
+        }
     }
 }
