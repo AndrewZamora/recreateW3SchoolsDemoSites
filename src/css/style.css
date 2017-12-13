@@ -33,3 +33,9 @@ nav {
     nav a i {
       color: #777;
       display: none !important; }
+  nav li:hover {
+    background: #ccc; }
+  nav a:hover {
+    background: #ccc; }
+  nav h3:hover {
+    background: #ccc; }

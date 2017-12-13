@@ -49,4 +49,15 @@ nav {
             display: none !important;
         }
     }
+
+    // Mobile Hover Styles
+    li:hover {
+        background: #ccc;
+    }
+    a:hover {
+        background: #ccc;
+    }
+    h3:hover {
+        background: #ccc;
+    }
 }
