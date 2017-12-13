@@ -8,89 +8,44 @@ html {
 
 //Default Style Varables
 $navTextColor:#777;
+$moblieNavTextColor: #000;
 $navTextSize: 15px;
 $navTextHover: #000;
 // Navigation Bar Styles
 nav {
-    display: flex;
-    height: 50px;
-    align-items: center;
+    text-transform: uppercase;
     h3 {
         font-weight: normal;
-        font-size: $navTextSize;
-        padding: 0;
+        padding: 16px;
+        margin: 0;
         a {
-            color: $navTextColor;
+            padding: 0;
             text-decoration: none;
         }
     }
     ul {
-        padding: 0;
-        display: flex;
         list-style: none;
-        margin-right: auto;
-    }
-    h3,
-    li {
-        a {
-            text-decoration: none;
-            color: $navTextColor;
-            margin: 0;
-            font-size: $navTextSize;
+        padding: 0;
+        margin: 0;
+        li {
             padding: 16px;
-            &:hover {
-                color: $navTextHover;
-                background: #ccc;
-            }
-            i {
-                padding-right: 3px;
+            a {
+                padding: 0;
+                text-decoration: none;
+                color: $moblieNavTextColor;
+                i {
+                    display: none !important;
+                }
             }
         }
     }
     a {
+        display: block;
+        text-decoration: none;
         padding: 16px;
-        color: $navTextColor;
-        &:hover {
-            color: #fff;
-            background: #F44336;
-        }
-    }
-}
-
-// Mobile Styles
-@media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        text-align: left;
-        text-transform: uppercase;
-        h3{
-            color: #000;
-            width: 100%;
-            padding: 16px;
-            display: block;
-            margin: 0;
-            &:hover{
-                background:#ccc;
-            }
-        }
-        ul {
-            display: block;
-            padding: 0;
-            margin: 0;
-            li{
-              padding: 16px;
-              &:hover{
-                  background:#ccc;
-              }
-              a{
-                  border: 1px solid;
-                  width: 100%;
-                  padding: auto;
-                  background: cyan;
-              }
-            }
-        }
+        color: $moblieNavTextColor;
         i {
+            color: $navTextColor;
             display: none !important;
         }
     }
