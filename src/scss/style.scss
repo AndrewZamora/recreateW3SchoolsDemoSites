@@ -15,9 +15,11 @@ $navTextHover: #000;
 nav {
     text-transform: uppercase;
     h3 {
+        position: relative;
         font-weight: normal;
         padding: 16px;
         margin: 0;
+        background: transparent;
         a {
             padding: 0;
             text-decoration: none;
@@ -50,6 +52,7 @@ nav {
         }
     }
 
+
     // Mobile Hover Styles
     li:hover {
         background: #ccc;
@@ -60,4 +63,13 @@ nav {
     h3:hover {
         background: #ccc;
     }
+}
+
+#showcase {
+    background-image: url(../img/dudeAndPlane.jpeg);
+    height: 70vh;
+    width: 100%;
+    position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -7,9 +7,11 @@ html {
 nav {
   text-transform: uppercase; }
   nav h3 {
+    position: relative;
     font-weight: normal;
     padding: 16px;
-    margin: 0; }
+    margin: 0;
+    background: transparent; }
     nav h3 a {
       padding: 0;
       text-decoration: none; }
@@ -39,3 +41,11 @@ nav {
     background: #ccc; }
   nav h3:hover {
     background: #ccc; }
+
+#showcase {
+  background-image: url(../img/dudeAndPlane.jpeg);
+  height: 70vh;
+  width: 100%;
+  position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
