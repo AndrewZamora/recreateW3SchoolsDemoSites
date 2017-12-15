@@ -14,22 +14,25 @@ $navTextHover: #000;
 // Navigation Bar Styles
 nav {
     text-transform: uppercase;
+    position: absolute;
+    width: 100%;
     h3 {
-        position: relative;
+        background: transparent;
         font-weight: normal;
         padding: 16px;
         margin: 0;
-        background: transparent;
         a {
             padding: 0;
             text-decoration: none;
         }
     }
     ul {
+        background: #fff;
         list-style: none;
         padding: 0;
         margin: 0;
         li {
+            width: 100%;
             padding: 16px;
             a {
                 padding: 0;
@@ -66,10 +69,10 @@ nav {
 }
 
 #showcase {
+    z-index: -1;
     background-image: url(../img/dudeAndPlane.jpeg);
-    height: 70vh;
-    width: 100%;
-    position: center;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
