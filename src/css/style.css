@@ -11,10 +11,11 @@ nav {
   nav h3 {
     background: transparent;
     font-weight: normal;
-    padding: 16px;
-    margin: 0; }
+    margin: 0;
+    padding: 0; }
     nav h3 a {
-      padding: 0;
+      color: #fff;
+      padding: 16px;
       text-decoration: none; }
   nav ul {
     background: #fff;
@@ -38,12 +39,17 @@ nav {
     nav a i {
       color: #777;
       display: none !important; }
+  nav #search {
+    background: #fff; }
+    nav #search:hover {
+      background: #ccc; }
   nav li:hover {
     background: #ccc; }
   nav a:hover {
     background: #ccc; }
-  nav h3:hover {
-    background: #ccc; }
+  nav h3 a:hover {
+    background: #ccc;
+    color: #000; }
 
 #showcase {
   z-index: -1;
