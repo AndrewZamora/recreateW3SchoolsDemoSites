@@ -21,6 +21,7 @@ nav {
         font-weight: normal;
         margin: 0;
         padding: 0;
+        width: 10%;
         a {
             color: #fff;
             padding: 16px;
@@ -60,6 +61,12 @@ nav {
         &:hover {
             background: #ccc
         }
+    #mobileNavHomeBar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
     } // Mobile Hover Styles
     li:hover {
         background: #ccc;
@@ -70,6 +77,14 @@ nav {
     h3 a:hover {
         background: #ccc;
         color: $moblieNavTextColor;
+    }
+}
+
+#nav-btn {
+    div {
+        background:#000; 
+        width: 40px;
+        height: 40px;
     }
 }
 

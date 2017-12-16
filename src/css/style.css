@@ -12,7 +12,8 @@ nav {
     background: transparent;
     font-weight: normal;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    width: 10%; }
     nav h3 a {
       color: #fff;
       padding: 16px;
@@ -43,6 +44,18 @@ nav {
     background: #fff; }
     nav #search:hover {
       background: #ccc; }
+    nav #search #mobileNavHomeBar {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      width: 100%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
   nav li:hover {
     background: #ccc; }
   nav a:hover {
@@ -50,6 +63,11 @@ nav {
   nav h3 a:hover {
     background: #ccc;
     color: #000; }
+
+#nav-btn div {
+  background: #000;
+  width: 40px;
+  height: 40px; }
 
 #showcase {
   z-index: -1;
