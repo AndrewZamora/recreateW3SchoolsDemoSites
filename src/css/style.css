@@ -1,76 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body,
 html {
-  padding: 0;
-  margin: 0;
   font-family: Verdana, sans-serif; }
 
 nav {
   text-transform: uppercase;
   position: absolute;
   width: 100%; }
-  nav h3 {
-    background: transparent;
-    font-weight: normal;
-    margin: 0;
-    padding: 0; }
-    nav h3 a {
-      color: #fff;
-      padding: 16px;
-      text-decoration: none; }
-  nav ul {
-    background: #fff;
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-    nav ul li {
-      width: 100%;
-      padding: 16px; }
-      nav ul li a {
-        padding: 0;
-        text-decoration: none;
-        color: #000; }
-        nav ul li a i {
-          display: none !important; }
-  nav a {
-    display: block;
-    text-decoration: none;
-    padding: 16px;
-    color: #000; }
-    nav a i {
-      color: #777;
-      display: none !important; }
-  nav #search {
-    background: #fff; }
-    nav #search:hover {
-      background: #ccc; }
   nav #mobileNavHomeBar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  nav li:hover {
-    background: #ccc; }
-  nav a:hover {
-    background: #ccc; }
-  nav h3 a:hover {
-    background: #ccc;
-    color: #000; }
-
-#nav-btn {
-  background: #fff;
-  width: 40px;
-  height: 40px;
-  margin-right: 8px;
-  cursor: pointer; }
-  #nav-btn span {
-    width: 2px;
-    height: 10px;
-    background: #000; }
+            justify-content: space-between; }
+    nav #mobileNavHomeBar h3 {
+      background: transparent;
+      font-weight: normal;
+      padding: 16px 16px 16px 0; }
+      nav #mobileNavHomeBar h3 a {
+        padding: 16px;
+        color: #fff;
+        text-decoration: none; }
+        nav #mobileNavHomeBar h3 a:hover {
+          color: #000;
+          background: #ccc; }
+    nav #mobileNavHomeBar button {
+      border: none;
+      background: transparent;
+      padding: 16px;
+      margin: 0; }
+      nav #mobileNavHomeBar button div {
+        width: 20px;
+        height: 3px;
+        border-radius: 1em;
+        background-color: #fff;
+        margin: 3px 0;
+        padding: 0; }
+      nav #mobileNavHomeBar button:hover {
+        background: #000; }
+  nav ul {
+    background: #fff;
+    list-style: none; }
+    nav ul li {
+      padding: 16px; }
+      nav ul li:hover {
+        background: #ccc; }
+      nav ul li a {
+        padding: 0;
+        text-decoration: none;
+        color: #000; }
+        nav ul li a i {
+          display: none !important; }
 
 #showcase {
   background-image: url(../img/dudeAndPlane.jpeg);
