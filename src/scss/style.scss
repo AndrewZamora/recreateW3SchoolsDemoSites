@@ -73,6 +73,40 @@ nav {
         }
     }
 }
+
+// Navigation Bar Desktop Styles
+@media(min-width:600px) {
+    nav {
+        display: flex;
+        align-items: center;
+        ul {
+            display: flex;
+            background: transparent;
+            margin: 0;
+            width: 100%;
+            li {
+                &:nth-of-type(4){
+                    margin-left: auto;
+                }
+                a {
+                    color: #fff;
+                    &hover {
+                        color: #000;
+                    }
+                }
+            }
+        }
+        #mobileNavHomeBar {
+            h3 {
+                padding: 0;
+            }
+            button {
+                display: none;
+            }
+        }
+    }
+}
+
 // Showcase Image Styles
 #showcase {
     background-image: url(../img/dudeAndPlane.jpeg);

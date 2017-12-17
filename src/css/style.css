@@ -56,6 +56,32 @@ nav {
         nav ul li a i {
           display: none !important; }
 
+@media (min-width: 600px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background: transparent;
+      margin: 0;
+      width: 100%; }
+      nav ul li:nth-of-type(4) {
+        margin-left: auto; }
+      nav ul li a {
+        color: #fff; }
+        nav ul li ahover {
+          color: #000; }
+    nav #mobileNavHomeBar h3 {
+      padding: 0; }
+    nav #mobileNavHomeBar button {
+      display: none; } }
+
 #showcase {
   background-image: url(../img/dudeAndPlane.jpeg);
   height: 100vh;
