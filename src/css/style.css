@@ -12,8 +12,7 @@ nav {
     background: transparent;
     font-weight: normal;
     margin: 0;
-    padding: 0;
-    width: 10%; }
+    padding: 0; }
     nav h3 a {
       color: #fff;
       padding: 16px;
@@ -44,18 +43,16 @@ nav {
     background: #fff; }
     nav #search:hover {
       background: #ccc; }
-    nav #search #mobileNavHomeBar {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      width: 100%;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
+  nav #mobileNavHomeBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   nav li:hover {
     background: #ccc; }
   nav a:hover {
@@ -64,13 +61,18 @@ nav {
     background: #ccc;
     color: #000; }
 
-#nav-btn div {
-  background: #000;
+#nav-btn {
+  background: #fff;
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  margin-right: 8px;
+  cursor: pointer; }
+  #nav-btn span {
+    width: 2px;
+    height: 10px;
+    background: #000; }
 
 #showcase {
-  z-index: -1;
   background-image: url(../img/dudeAndPlane.jpeg);
   height: 100vh;
   background-size: cover;
