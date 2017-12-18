@@ -85,13 +85,20 @@ nav {
             margin: 0;
             width: 100%;
             li {
-                &:nth-of-type(4){
+                &:nth-of-type(4) {
                     margin-left: auto;
                 }
                 a {
                     color: #fff;
                     &hover {
                         color: #000;
+                    }
+                    span {
+                        display: none;
+                    }
+                    i {
+                        margin-right: 2px;
+                        display: inline !important;
                     }
                 }
             }

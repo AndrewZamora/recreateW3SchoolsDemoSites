@@ -77,6 +77,11 @@ nav {
         color: #fff; }
         nav ul li ahover {
           color: #000; }
+        nav ul li a span {
+          display: none; }
+        nav ul li a i {
+          margin-right: 2px;
+          display: inline !important; }
     nav #mobileNavHomeBar h3 {
       padding: 0; }
     nav #mobileNavHomeBar button {
