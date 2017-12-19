@@ -1,7 +1,7 @@
 //Default Style Varables
 $navTextColor:#777;
 $moblieNavTextColor: #000;
-$navTextSize: 15px;
+$navTextSize: 16px;
 $navTextHover: #000;
 // Reset for some default styles
 * {
@@ -11,7 +11,7 @@ $navTextHover: #000;
 
 body,
 html {
-    font-family: Verdana, sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 // Navigation Bar Styles
@@ -25,6 +25,7 @@ nav {
         h3 {
             background: transparent;
             font-weight: normal;
+            font-size: $navTextSize;
             padding: 16px 16px 16px 0;
             a {
                 padding: 16px;
@@ -43,7 +44,7 @@ nav {
             margin: 0;
             div {
                 width: 20px;
-                height: 3px;
+                height: 2px;
                 border-radius: 1em;
                 background-color: #fff;
                 margin: 3px 0;
@@ -80,17 +81,25 @@ nav {
         display: flex;
         align-items: center;
         ul {
+            background: black;
             display: flex;
             background: transparent;
             margin: 0;
+            padding: 0;
             width: 100%;
+            justify-content: center;
             li {
+                padding: 0;
+                margin: 0;
                 &:nth-of-type(4) {
                     margin-left: auto;
                 }
                 a {
+                    height: 100%;
+                    padding: 16px;
                     color: #fff;
-                    &hover {
+                    &:hover {
+                        background: #ccc;
                         color: #000;
                     }
                     span {
@@ -104,12 +113,34 @@ nav {
             }
         }
         #mobileNavHomeBar {
+            padding: 0;
             h3 {
-                padding: 0;
+                margin: 0;
+                padding-right: 0;
             }
             button {
                 display: none;
             }
+        }
+        #search {
+            color: #fff;
+            &:hover {
+                background: orangered;
+            }
+        }
+    }
+    //Showcase Desktop Styles 
+    #showcase {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        p {
+            display: block;
+            background: #404040;
+            padding: 16px;
+            text-transform: uppercase;
+            letter-spacing: 8px;
         }
     }
 }
@@ -121,4 +152,10 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+div {
+    p {
+        display: none;
+    }
 }

@@ -4,7 +4,7 @@
 
 body,
 html {
-  font-family: Verdana, sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 nav {
   text-transform: uppercase;
@@ -20,6 +20,7 @@ nav {
     nav #mobileNavHomeBar h3 {
       background: transparent;
       font-weight: normal;
+      font-size: 16px;
       padding: 16px 16px 16px 0; }
       nav #mobileNavHomeBar h3 a {
         padding: 16px;
@@ -35,7 +36,7 @@ nav {
       margin: 0; }
       nav #mobileNavHomeBar button div {
         width: 20px;
-        height: 3px;
+        height: 2px;
         border-radius: 1em;
         background-color: #fff;
         margin: 3px 0;
@@ -65,27 +66,62 @@ nav {
         -ms-flex-align: center;
             align-items: center; }
     nav ul {
+      background: black;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       background: transparent;
       margin: 0;
-      width: 100%; }
-      nav ul li:nth-of-type(4) {
-        margin-left: auto; }
-      nav ul li a {
-        color: #fff; }
-        nav ul li ahover {
-          color: #000; }
-        nav ul li a span {
-          display: none; }
-        nav ul li a i {
-          margin-right: 2px;
-          display: inline !important; }
-    nav #mobileNavHomeBar h3 {
+      padding: 0;
+      width: 100%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      nav ul li {
+        padding: 0;
+        margin: 0; }
+        nav ul li:nth-of-type(4) {
+          margin-left: auto; }
+        nav ul li a {
+          height: 100%;
+          padding: 16px;
+          color: #fff; }
+          nav ul li a:hover {
+            background: #ccc;
+            color: #000; }
+          nav ul li a span {
+            display: none; }
+          nav ul li a i {
+            margin-right: 2px;
+            display: inline !important; }
+    nav #mobileNavHomeBar {
       padding: 0; }
-    nav #mobileNavHomeBar button {
-      display: none; } }
+      nav #mobileNavHomeBar h3 {
+        margin: 0;
+        padding-right: 0; }
+      nav #mobileNavHomeBar button {
+        display: none; }
+    nav #search {
+      color: #fff; }
+      nav #search:hover {
+        background: orangered; }
+  #showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff; }
+    #showcase p {
+      display: block;
+      background: #404040;
+      padding: 16px;
+      text-transform: uppercase;
+      letter-spacing: 8px; } }
 
 #showcase {
   background-image: url(../img/dudeAndPlane.jpeg);
@@ -93,3 +129,6 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+
+div p {
+  display: none; }
