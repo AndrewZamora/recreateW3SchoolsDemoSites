@@ -116,7 +116,8 @@ nav {
         -ms-flex-align: center;
             align-items: center;
     color: #fff; }
-    #showcase p {
+    #showcase h2 {
+      font-weight: normal;
       display: block;
       background: #404040;
       padding: 16px;
@@ -130,5 +131,5 @@ nav {
   background-repeat: no-repeat;
   background-position: center; }
 
-div p {
+div h2 {
   display: none; }
