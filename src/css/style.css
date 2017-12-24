@@ -106,34 +106,35 @@ nav {
       color: #fff; }
       nav #search:hover {
         background: orangered; }
-  #showcase {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: #fff; }
-    #showcase h2 {
-      font-weight: normal;
-      display: block;
-      background: #404040;
-      padding: 16px;
-      text-transform: uppercase;
-      letter-spacing: 8px; } }
+  div h2 span {
+    display: inline; } }
 
 #showcase {
   background-image: url(../img/dudeAndPlane.jpeg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff; }
 
-div h2 {
-  display: none; }
+h2 {
+  font-weight: normal;
+  display: block;
+  background: #404040;
+  padding: 16px;
+  text-transform: uppercase;
+  letter-spacing: 8px; }
+  h2 span {
+    display: none; }
 
 .menuClose {
   display: none; }

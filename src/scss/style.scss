@@ -130,19 +130,13 @@ nav {
             }
         }
     } //Showcase Desktop Styles 
-    #showcase {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
+    div {
         h2 {
-            font-weight: normal;
-            display: block;
-            background: #404040;
-            padding: 16px;
-            text-transform: uppercase;
-            letter-spacing: 8px;
+            span {
+                display: inline;
+            }
         }
+        
     }
 }
 
@@ -153,12 +147,22 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
-div {
-    h2 {
-        display: none;
-    }
+h2 {
+    font-weight: normal;
+    display: block;
+    background: #404040;
+    padding: 16px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+        span {
+            display: none;
+        }
 }
 
 .menuClose {
