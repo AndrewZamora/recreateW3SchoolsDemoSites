@@ -126,15 +126,18 @@ nav {
           align-items: center;
   color: #fff; }
 
-h2 {
+header h2 {
   font-weight: normal;
   display: block;
   background: #404040;
   padding: 16px;
   text-transform: uppercase;
   letter-spacing: 8px; }
-  h2 span {
+  header h2 span {
     display: none; }
 
 .menuClose {
   display: none; }
+
+.about h2, .about p:nth-of-type(1) {
+  text-align: center; }
