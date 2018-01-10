@@ -57,6 +57,7 @@ nav {
         }
     }
     ul {
+        display: none;
         background: #fff;
         list-style: none;
         li {
@@ -165,10 +166,6 @@ header {
                 display: none;
             }
     }
-}
-
-.menuClose {
-    display: none;
 }
 
 //About Section

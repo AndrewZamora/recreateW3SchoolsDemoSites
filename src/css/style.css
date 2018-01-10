@@ -45,6 +45,7 @@ nav {
       nav #mobileNavHomeBar button:hover {
         background: #000; }
   nav ul {
+    display: none;
     background: #fff;
     list-style: none; }
     nav ul li {
@@ -135,9 +136,6 @@ header h2 {
   letter-spacing: 8px; }
   header h2 span {
     display: none; }
-
-.menuClose {
-  display: none; }
 
 .about h2, .about p:nth-of-type(1) {
   text-align: center; }
