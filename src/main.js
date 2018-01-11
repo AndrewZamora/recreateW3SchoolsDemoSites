@@ -9,4 +9,13 @@ menuBtn.addEventListener("click", function () {
         ul.style.display = "block";
     }
 });
+
+var menuButton = document.getElementById("nav-btn");
+var menu = document.getElementById("menu");
+
+menuButton.addEventListener("click", menuOpenClose);
+function menuOpenClose() {
+    menu.classList.toggle("menuOpen");
+ }
+
 //Closes Mobile Menu
