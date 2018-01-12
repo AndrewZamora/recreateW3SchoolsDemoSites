@@ -69,9 +69,6 @@ nav {
             align-items: center; }
     nav ul {
       background: black;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
       background: transparent;
       margin: 0;
       padding: 0;
@@ -108,7 +105,14 @@ nav {
       nav #search:hover {
         background: orangered; }
   div h2 span {
-    display: inline; } }
+    display: inline; }
+  #menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.menuOpen {
+  display: block; }
 
 #showcase {
   background-image: url(../img/dudeAndPlane.jpeg);
