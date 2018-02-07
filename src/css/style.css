@@ -153,6 +153,8 @@ header h2 {
   max-width: 80%; }
   .about h2 {
     text-align: center; }
+  .about p:nth-child(2) {
+    text-align: center; }
 
 .aboutBio {
   display: -webkit-box;
@@ -181,3 +183,6 @@ header h2 {
       padding-bottom: 30px; }
     .aboutBio div img {
       width: 100%; }
+
+footer {
+  height: 300px; }

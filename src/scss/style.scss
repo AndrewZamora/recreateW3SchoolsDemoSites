@@ -183,6 +183,9 @@ header {
     h2 {
         text-align: center;
     }
+    p:nth-child(2){
+        text-align: center;
+    }
 }
 
 .aboutBio {
@@ -205,4 +208,9 @@ header {
            width: 100%;
         }
     }
+}
+
+// footer
+footer{
+    height: 300px;
 }
