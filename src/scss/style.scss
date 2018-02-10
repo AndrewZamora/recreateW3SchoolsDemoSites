@@ -179,11 +179,8 @@ header {
     display: flex;
     flex-direction: column;
     margin: 0 auto 0 auto;
-    max-width: 80%;
+    max-width: 90%;
     h2 {
-        text-align: center;
-    }
-    p:nth-child(2){
         text-align: center;
     }
 }
@@ -212,5 +209,15 @@ header {
 
 // footer
 footer{
-    height: 300px;
+    height: 200px;
+    text-align: center;
+    background: #404040;
+    color: #fff;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    &:hover {
+        background: #000;
+    }
 }
